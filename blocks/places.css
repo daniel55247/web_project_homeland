@@ -18,7 +18,6 @@
 .places__title {
   grid-row: 1;
   grid-column: 1/2;
-  font-family: Inter;
   font-weight: 900;
   font-size: 74px;
   line-height: 76px;
@@ -39,7 +38,6 @@
 .places__button {
   grid-row: 5;
   grid-column: 1/2;
-  font-family: Inter;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
@@ -59,7 +57,7 @@
 .places__link {
   grid-row: 1;
   grid-column: 2/4;
-  font-family: Inter;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -70,7 +68,7 @@
 
 .places__link-author {
   margin: 0;
-  font-family: Inter;
+
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -79,7 +77,6 @@
 .places__content {
   grid-row: 2/6;
   grid-column: 2/-1;
-  font-family: Inter;
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
@@ -92,6 +89,7 @@
   .places {
     margin-top: 16px;
     margin-left: 24px;
+    margin-right: 24px;
   }
   .places__block {
     display: grid;
@@ -128,6 +126,7 @@
   .places {
     margin-top: 12px;
     margin-left: 16px;
+    margin-right: 16px;
   }
   .places__block {
     display: grid;
